@@ -6,7 +6,7 @@ library(textreadr)
 
 #Essa API raspa um site desejado e retorna as 100 palavras que mais se repetem no site, 
 #excluido as stopwords, ou seja, palavras sem muito valor e preposições, 
-#o uso é muito simples basta apenas colocar o link do site desejado depois de /raspagem?link=
+#o uso é muito simples basta apenas colocar o link do site desejado depois de /minerar?link=
 
 
 
