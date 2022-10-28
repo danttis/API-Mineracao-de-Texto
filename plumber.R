@@ -18,7 +18,7 @@ function(link) {
   
   x = VCorpus(VectorSource(k), readerControl = list(readPlain, language = "pt"))#Transformado os dados em um corpus
   
-  x = tm_map(x, removeWords, c(stopwords("english"),stopwords("portuguese"),stopwords("spanish"))#Removendo os stopwords, ou seja, palavras sem muito valor e preposições.
+  x = tm_map(x, removeWords, c(stopwords("english"),stopwords("portuguese"),stopwords("spanish")))#Removendo os stopwords, ou seja, palavras sem muito valor e preposições.
   
   x = tm_map(x, removePunctuation)#Removendo pontuação
   
